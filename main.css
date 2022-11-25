@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header{
+    background: #161D2F;
+    color: #fff;
+}
+
+
+.container{
+    margin: 0 165px;
+    padding: 11.5px 15px;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.logo a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu__ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+.menu__ul__item a{
+    color: #fff;
+    opacity: 0.8;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+.menu__ul__item a:hover{
+    opacity: 1;
+}
+
+
+
+.join-btn{
+    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+    border-radius: 28px;
+    padding: 12.5px 37px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.hero{
+    text-align: center;
+}
+
+.hero__span{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.hero__text{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.hero__btn{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-btn{
+    background: none;
+    border: #fff 1px solid;
+    border-radius: 28px;
+    padding: 12.5px 37px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+.video__btn{
+    display: block;
+    width: 100%;
+    height: 600px;
+    background: url('./img/play-circle.svg') center center no-repeat, url('./img/phisical-work.jpg') center center no-repeat;
+    border-radius: 10px;
+    margin: 30px 0 50px;
+}
+
+
+
+
+.main{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.programs{
+    text-align: center;
+}
+
+.programs__span{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #262626;
+    text-transform: uppercase;
+}
+
+.programs__h2{
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #222;
+}
+
+.programs__slider{
+    justify-content: center;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.slider__card{
+    flex-basis: 30%;
+    max-width: 340px;
+}
+
+.slider__card > img{
+    border-radius: 10px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    height: 240px;
+}
+
+
+h3{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #222;
+}
+
+.slider__card__span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.slider__p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #4B4B4B;
+    margin-bottom: 20px;
+}
+
+.slider__a{
+    background: url('./img/strelka-not-slider.svg') center right no-repeat;
+    padding-right: 30px;
+    color: #3043A9;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+
+
+.nutritions > .container{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+
+.nutrition__left__side{
+    flex-basis: 55%;
+    position: relative;
+    height: 484px;
+}
+
+.discipline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 17px 37px 17px 77px;
+    background: url('img/trophy\ 1.svg') top 15px left 37px no-repeat, #161D2F;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    z-index: 4;
+}
+
+
+
+.eating-helthy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 17px 15px 16px 55px;
+    background: url('img/hours.svg') top 15px left 15px no-repeat, #262626;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    z-index: 4;
+}
+
+
+.water, .slicing{
+    border-radius: 10px;
+    position: absolute;
+}
+
+.water{
+    top: 0;
+    right: 33px;
+    z-index: 2;
+}
+
+
+.slicing{
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+
+
+
+
+.nutrition__right__side{
+    flex-basis: 40%;
+}
+
+
+
+.nutritions__span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #222222;
+}
+
+.nutritions__h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #161D2F;
+    margin-bottom: 10px;
+}
+
+.nutritions__p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #222222;
+    margin-bottom: 30px;
+}
+
+.pricing{
+    padding: 100px 0;
+    position: relative;
+}
+
+
+.pricing__span{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.pricing__h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+
+.pricing__cardzone{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+
+.card{
+    width: 100%;
+    max-width: 350px;
+    flex-basis: 30%;
+    background: #fff;
+    border-radius: 35px;
+    height: 682px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 16px 35px rgba(112, 144, 176, 0.2);
+}
+
+
+.card__popular__label{
+    position: absolute;
+    width: 76px;
+    background: #63C776;
+    border-radius: 0px 35px;
+    top: 0;
+    right: 0;
+    height: 75px;
+    color: #fff;
+    padding: 27px 10px;
+}
+
+
+.btn__card{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+
+.card__top img{
+    border-radius: 8px;
+    display: block;
+    margin: 10px auto;
+}
+
+
+.cards__naming{
+    margin-top: 30px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #161D2F;
+}
+
+
+.pricing__name__p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #222222;
+    margin-bottom: 10px;
+}
+
+.pricing__ul{
+    margin-left: 83px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #222222;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+.pricing__ul li{
+    background: url('img/check.svg') center left no-repeat;
+    padding-left: 33px;
+}
+
+
+
+
+
+.card__bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+
+.card__bottom__p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #222222;
+}
+
+.card__bottom__p span{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    color: #161D2F;
+
+}
+
+
+.pricing__bg{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(90deg, #09203F 0%, #161D2F 100%);
+    z-index: -1;
+}
